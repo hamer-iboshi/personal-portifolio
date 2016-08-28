@@ -1,125 +1,173 @@
 <!DOCTYPE html>
-<html data-brackets-id='5642' lang="pt-br">
-	<head data-brackets-id='5643'>
-		<meta data-brackets-id='5644' name="viewport" charset="UTF-8" content="width=device-width, initial-scale=1" >
-        <!-- Latest compiled and minified CSS -->
-		<link rel="stylesheet" href="css/bootstrap.min.css">
+<html lang="en">
 
-		<!-- Optional theme -->
-		<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+<head>
 
-		<!-- Latest compiled and minified JavaScript -->
-		<script src="js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-		<link data-brackets-id='5648' rel="stylesheet" type="stylesheet" href="cover.css">
-		<link rel="stylesheet" type="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
     <title>HI15</title>
-	</head>
-	<body data-brackets-id='5649'>
 
-        <div data-brackets-id='5650' class="row" id="home">
-	  		<div data-brackets-id='5651' class="col-xs-32 col-sm-28 col-md-12">
-		  		<img data-brackets-id='5653' src="themes/principal-theme.jpg" class="img-responsive barSup1 nofocus" alt="Resposive image">
-            <div data-brackets-id='5654' onfocus="focus2" class="barSup1 nofocus"><img data-brackets-id='5655' src="themes/fundo-opc.png" class="img-responsive" alt="Resposive image"></div>
-		        <div data-brackets-id='5656' class="site-wrapper" >
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-		          <div data-brackets-id='5657' class="site-wrapper-inner">
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
 
-		            <div data-brackets-id='5658' class="cover-container">
-		            <nav class="navbar navbar-fixed-top">
-		              <div class="container">
-		                <div class="navbar-header">
-		                  <a class="navbar-brand active" href="#home">Hamer Iboshi</a>
-		                </div>
-		                <div id="navbar" class="collapse navbar-collapse">
-		                  <ul class="nav navbar-nav position-bar navbar-right">
-		<!--                    <li ><a href="#">Home</a></li>-->
-		                    <li><a href="#about">Sobre</a></li>
-		                    <li><a href="#know">Conhecimentos</a></li>
-		                    <li><a href="#project">Projetos</a></li>
-		                    <li><a href="#grad">Graduação</a></li>
-		                    <li><a href="#tec">Técnico</a></li>
-		                    <li><a href="#contact">Contato</a></li>
-		                  </ul>
-		                </div><!-- /.nav-collapse -->
-		              </div><!-- /.container -->
-		            </nav><!-- /.navbar -->
-		              <div data-brackets-id='5679' class="col-xs-32 col-sm-28 col-md-12 text-center">
-		                <h1 data-brackets-id='5680' class="title-center">Seja bem-vindo  (EM CONSTRUÇÃO)</h1>
-		                <p data-brackets-id='5681' class="lead body-center">Aqui está disponível toda minha tragetória acadêmica e profissional, e os principais trabalhos e projetos na qual fiz parte.</p>
-		              </div>
-		                <div class="col-lg-1"></div>
-		                    <div class="col-lg-10 perfil-position">
-		                      <img class="img-circle" src="profile.jpg" alt="Generic placeholder image" width="140" height="140">
-		                      <h3>Hamer Iboshi - Assessor de Projetos</h3>
-		                      <p>Bacharelado em Ciência da Computação - Universidade Federal do Paraná (3º Período)</p>
-		                      <p>Técnico em Informática - Etec Prof. Dr. Antônio Eufrásio de Toledo</p>
-		                      <p>Técnico em Marketing - Etec Prof. Adolpho Arruda Mello</p>
-		                        <button type="button" class="btn position-button  btn-lg size-seta">
-		                          <a href="#about"><span class="glyphicon glyphicon-chevron-down"></span></a>
-		                        </button>
-		                    </div><!-- /.col-lg-4 -->
-		                <div class="col-lg-1"></div>
-		            </div>
-							</div>
-		          </div>
-		        </div>
-				</div>
-      <!-- Three columns of text below the carousel -->
-      <div id="about" class="row row-offcanvas corpo1-position">
-        <div class="col-xs-32 col-sm-28 col-md-12">
-          <img src="themes/backcentro.png" class="img-responsive" alt="Resposive image" style="position:absolute">
-      </div><!-- /.row -->
+    <!-- Theme CSS -->
+    <link href="css/grayscale.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 
-      <!-- START THE FEATURETTES -->
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
-      <hr class="featurette-divider">
+</head>
 
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    <i class="fa fa-play-circle"></i> <span class="light">HAMER</span> IBOSHI
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">SOBRE</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#projects">PROJETOS</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">CONTATO</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
         </div>
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+        <!-- /.container -->
+    </nav>
+
+    <!-- Intro Header -->
+    <header class="intro">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h1 class="brand-heading back-intro">Bem-vindo</h1>
+
+                        <div class="col-md-1"></div>
+                        <div class="col-md-6 col-md-offset-2">
+                          <h2 class="intro-text back-intro"> SITE EM CONSTRUÇÃO</h2>
+                          <p class="intro-text back-intro">Aqui está disponível toda minha tragetória
+                            <br>Acadêmica e Profissional.</p>
+                          <a href="#about" class="back-intro btn btn-circle page-scroll">
+                              <i class="fa fa-angle-double-down animated"></i>
+                          </a>
+                        </div>
+                        <div class="col-md-1"></div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
+    </header>
 
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-7 col-md-push-5">
-          <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+    <!-- About Section -->
+    <section id="about" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-1"></div>
+            <div class="col-lg-10">
+                <h2>Sobre</h2>
+                <h4>Assessor de Projetos e Estudante de Ciência da Computação</h4>
+                <p>Bacharelado em <a href="http://www.inf.ufpr.br/bcc/">Ciência da Computação</a> - Universidade Federal do Paraná (4º Período)</p>
+                <p>Assessor de projetos na <a href="http://ecomp.co">ECOMP</a> - Empresa Júnior de Informática da UFPR</p>
+                <p>Técnico em Informática - Etec Prof. Dr. Antônio Eufrásio de Toledo</p>
+                <p>Técnico em Marketing - Etec Prof. Adolpho Arruda Mello</p>
+            </div>
+            <div class="col-lg-1"></div>
         </div>
-        <div class="col-md-5 col-md-pull-7">
-          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+    </section>
+
+    <!-- Download Section -->
+    <section id="projects" class="content-section text-center">
+        <div class="download-section">
+            <div class="container">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <h2>Projetos</h2>
+                    <p>Descrição dos projetos na qual fiz parte.</p>
+                    <a href="#" class="btn btn-default btn-lg">Visualizar todos</a>
+                </div>
+            </div>
         </div>
-      </div>
+    </section>
 
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+    <!-- Contact Section -->
+    <section id="contact" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Contato</h2>
+                <p>Sinta se avontade para entrar em contato</p>
+                <p><a href="mailto:hamer.iboshi@gmail.com">hamer.iboshi@gmail.com</a>
+                </p>
+                <ul class="list-inline banner-social-buttons">
+                    <li>
+                        <a href="https://linkedin.com/in/hameriboshi13" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/hi15" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                    </li>
+                    <li>
+                        <a href="https://gitlab.c3sl.ufpr.br/u/hi15" class="btn btn-default btn-lg"><i class="fa fa-gitlab fa-fw"></i> <span class="network-name">Gitlab</span></a>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-style">
+        <div class="container text-center">
+            <p>Copyright &copy; HAMER IBOSHI 2016</p>
+            <p>Atualizado em: 28-07-2016</p>
         </div>
-      </div>
+    </footer>
 
-      <hr class="featurette-divider">
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.js"></script>
 
-      <!-- /END THE FEATURETTES -->
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
 
-      <!-- FOOTER -->
-      <footer>
-        <p>&copy; 2016 Hamer Iboshi.</p>
-          <p>Last update 15/01/2016</p>
-      </footer>
-        </div>
-    </div>
+    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/grayscale.min.js"></script>
 
 </body>
+
 </html>
